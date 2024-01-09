@@ -1,11 +1,32 @@
 import React from 'react';
+import './home.css'
+
+import { Swiper, SwiperSlide } from 'swiper/react'
+import slide01 from './imagens/banner-forme01-desk.png'
+import slide02 from './imagens/banner-forme02-desk.png'
 
 const Home = () => {
+
+    const slides = [
+        {id: '1', image: slide01}, 
+        {id: '2', image: slide02},
+    ]
+
     return ( 
         <>
             <div>
                 <h1>hello</h1>
             </div>
+            <div>
+                <Swiper slidesPerView={1} pagination={{ clickable: true }} navigation>
+                    {slides.map((item) => (
+                        <SwiperSlide key={item.id}>
+                            <img src={item.image} alt="slider" className='slide-item'/>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+            
         </>
      );
 }
