@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Home from './components/home/home'
 import About from './components/about/about'
+import Menu from './components/menu/menu'
 import { register } from 'swiper/element/bundle'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -15,9 +16,11 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay'
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
+      <Menu/>
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About/>}/>

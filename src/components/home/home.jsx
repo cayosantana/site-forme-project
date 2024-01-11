@@ -18,9 +18,6 @@ const Home = () => {
     return ( 
         <>
             <div>
-                <h1>hello</h1>
-            </div>
-            <div>
                 <Swiper slidesPerView={1} pagination={{ clickable: true }} navigation autoplay={{ delay: 7000 }}>
                     {slides.map((item) => (
                         <SwiperSlide key={item.id}>

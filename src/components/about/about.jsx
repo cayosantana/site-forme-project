@@ -3,8 +3,9 @@ import React from 'react';
 const About = () => {
     return ( 
         <>
-            <div>
+            <div className='container-sobre'>
                 <h1>Sobre</h1>
+                
             </div>
         </>
      );
