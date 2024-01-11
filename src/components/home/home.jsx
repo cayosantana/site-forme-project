@@ -12,9 +12,7 @@ const Home = () => {
 
     const slides = [
         {id: '1', image: slide01}, 
-        {id: '2', image: slide02},
-        {id: '3', image: slide03},
-        {id: '4', image: slide04},   
+        {id: '2', image: slide02},   
     ]
 
     return ( 
