@@ -1,0 +1,18 @@
+.container-sobre {
+    background-color: rgb(251, 251, 251);
+    width: 900px;
+    margin: 0 auto;
+}
+.container-marca {
+    background-color: white;
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+
+}
+.foto-marca {
+    width: 300px;
+}
+.foto-chala {
+    width: 500px;
+}
