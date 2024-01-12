@@ -13,6 +13,7 @@ const Menu = () => {
                     <ul>
                         <li><Link className='link' to="/">Inicial</Link></li>
                         <li><Link className='link' to="about">Sobre</Link></li>
+                        <li><Link className='link-destaque' to="revenda">Seja Nosso Revendedor</Link></li>
                     </ul>
                 </nav>
             </div>

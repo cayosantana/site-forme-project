@@ -6,18 +6,24 @@
 .container-menu {
     display: flex;
     justify-content: space-between;
-    padding: 20px 60px 20px 40px;
+    padding: 15px 60px 15px 40px;
     background-color: #0A0A0A;
 }
 .menu ul {
     display: flex;
     gap: 40px;
     list-style-type: none;
-    font-size: 20px;
-    padding-top: 12px;
+    font-size: 17px;
+    padding-top: 15px;
 }
 .link {
     color: whitesmoke;
+    text-decoration: none;   
+}
+.link-destaque {
+    color: whitesmoke;
     text-decoration: none;
-    
-}    
+    padding: 15px;
+    border: 2px solid #DE155E; 
+    border-radius: 5px;  
+}     
