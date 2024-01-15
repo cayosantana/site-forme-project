@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from './imagens/logo_forme_p&bPrancheta 3.png'
+import logo from './image/logo_forme_p&bPrancheta 3.png'
 import './menu.css'
 
 

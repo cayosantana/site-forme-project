@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css'
-import greek from './imagens/greek-triskelion.png'
-import chala from './imagens/_DSC0828.jpg'
+import greek from './image/greek-triskelion.png'
+import chala from './image/_DSC0828.jpg'
 
 const About = () => {
     return ( 
