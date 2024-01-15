@@ -1,5 +1,8 @@
 .container-revenda {
-    background-color: aqua;
+    background-color: #040202;
+    display: flex;
     width: 100%;
-    height: 100%;
+}
+.foto-back {
+    width: 800px
 }

@@ -8,7 +8,7 @@ const Revenda = () => {
     return ( 
         <>
             <div className='container-revenda'>
-                <img src={fotoback} alt="" />
+                <img className='foto-back' src={fotoback} alt="" />
                 <div className='container-form'>
                     <FormRevenda/>
                 </div>
