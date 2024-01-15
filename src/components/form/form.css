@@ -8,6 +8,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.title-form {
+    color: whitesmoke;
+    padding-bottom: 25px;
+}
   
 .form-group {
     display: flex;
@@ -74,7 +79,7 @@
     padding: 10px;
     border-radius: 5px;
     color: #eee;
-    background-color: #49a1b8;
+    background-color: #cb1357;
     font-weight: 500;
     font-size: 1rem;
     margin-top: 10px;
@@ -84,5 +89,5 @@
   
 .form-group button:hover {
     cursor: pointer;
-    background-color: #61dbfb;
+    background-color: #fd176b;
 }

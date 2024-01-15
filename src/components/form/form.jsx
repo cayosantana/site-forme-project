@@ -70,6 +70,7 @@ const FormRevenda = () => {
         <>
             <div className="app-container">
                 <div className="form-group">
+                    <h1 className='title-form'>Titulo</h1>
                     <label>Nome</label>
                     <input
                         className={errors?.name && "input-error"}
