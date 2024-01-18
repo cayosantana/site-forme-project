@@ -7,7 +7,6 @@ const About = () => {
     return ( 
         <>
             <div className='container-sobre'>
-                <h1>Sobre</h1>
                 <div className='container-marca'>
                     <img className='foto-marca' src={greek} alt="three-legged Greek triskele" />
                     <div>
