@@ -6,6 +6,8 @@ import slide01 from './image/banner-forme01-desk.png'
 import slide02 from './image/banner-forme02-desk.png'
 import slide03 from './image/banner-forme01-mobile.png'
 import slide04 from './image/banner-forme02-mobile.png'
+import Carrossel from '../carrossel/carrossel';
+
 
 const Home = () => {
     
@@ -14,6 +16,7 @@ const Home = () => {
         {id: '1', image: slide01}, 
         {id: '2', image: slide02},   
     ]
+
 
     return ( 
         <>
@@ -25,6 +28,9 @@ const Home = () => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
+            </div>
+            <div>
+                <Carrossel/>   
             </div>
             
         </>

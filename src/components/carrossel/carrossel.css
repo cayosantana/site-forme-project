@@ -1,0 +1,10 @@
+.swiper {
+    padding: 32px;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.swiper-pagination-bullet-active {
+    background-color: #DE155E;
+}
