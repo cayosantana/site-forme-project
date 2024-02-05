@@ -20,6 +20,7 @@
 }
 .container-marca div h2 {
     padding-bottom: 15px;
+    font-size: 40px;
 }
 .foto-marca {
     width: 300px;
@@ -40,6 +41,7 @@
 .container-forme div h2 {
     color: whitesmoke;
     padding-bottom: 15px;
+    font-size: 40px;
 }
 .container-forme div p {
     color: whitesmoke;

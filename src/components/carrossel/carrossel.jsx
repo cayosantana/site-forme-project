@@ -34,7 +34,7 @@ const Carrossel = ( ) => {
                     </SwiperSlide>
                     <div className='container-text'>
                         <h5>PHYSIQUE SHORTS DESIGN</h5>
-                        <h2>BLUE STORM</h2>
+                        <h2 className='h2-carrossel'>BLUE STORM</h2>
                     </div>
                     <SwiperSlide className='swiper-slide-carrossel'>
                         <h1>Teste 02</h1>
