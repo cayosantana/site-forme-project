@@ -3,6 +3,7 @@
 }
 .swiper-slide-carrossel {
     display: flex;
+    background-color: aqua;
     justify-content: center;
 }
 .swiper-pagination-bullet-active {
