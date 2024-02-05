@@ -28,9 +28,14 @@ const Carrossel = ( ) => {
             <div>
                 <Swiper slidesPerView={3} spaceBetween={50} navigation={true} pagination={{ clickable: false }} className='swiper-carrossel'>
                     <SwiperSlide className='swiper-slide-carrossel'>
-                        <img src={''} alt=''/>
-                        <h1>Teste 01</h1>
+                        <div className='container-foto'>
+                            <img className='image' src={blueStorm} alt=''/>
+                        </div>
                     </SwiperSlide>
+                    <div className='container-text'>
+                        <h5>PHYSIQUE SHORTS DESIGN</h5>
+                        <h2>BLUE STORM</h2>
+                    </div>
                     <SwiperSlide className='swiper-slide-carrossel'>
                         <h1>Teste 02</h1>
                     </SwiperSlide>

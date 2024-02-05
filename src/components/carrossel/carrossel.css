@@ -3,8 +3,9 @@
 }
 .swiper-slide-carrossel {
     display: flex;
-    background-color: aqua;
     justify-content: center;
+    border: 2px solid #DE155E;
+    border-radius: 5px;
 }
 .swiper-pagination-bullet-active {
     background-color: #DE155E;
@@ -14,4 +15,20 @@
 }
 .swiper-button-next {
     color: #DE155E;
+}
+.image {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+h2 {
+    color: whitesmoke; 
+    font-size: 40px;
+    padding: 0px 0px 0px 30px;
+}
+h5 {
+    color: #DE155E;
+    padding: 20px 0px 0px 30px;
 }
