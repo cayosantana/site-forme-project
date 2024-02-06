@@ -29,22 +29,167 @@ const Carrossel = ( ) => {
                 <Swiper slidesPerView={3} spaceBetween={50} navigation={true} pagination={{ clickable: false }} className='swiper-carrossel'>
                     <SwiperSlide className='swiper-slide-carrossel'>
                         <div className='container-foto'>
-                            <img className='image' src={blueStorm} alt=''/>
+                            <img className='image' src={sandStorm} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>SANDSTORM</h2>
                         </div>
                     </SwiperSlide>
-                    <div className='container-text'>
-                        <h5>PHYSIQUE SHORTS DESIGN</h5>
-                        <h2 className='h2-carrossel'>BLUE STORM</h2>
-                    </div>
                     <SwiperSlide className='swiper-slide-carrossel'>
-                        <h1>Teste 02</h1>
+                        <div className='container-foto'>
+                            <img className='image' src={sunset} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>SUNSET</h2>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide className='swiper-slide-carrossel'>
-                        <h1>Teste 03</h1>
+                        <div className='container-foto'>
+                            <img className='image' src={pinkStorm} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>PINK STORM</h2>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide className='swiper-slide-carrossel'>
-                        <h1>Teste 04</h1>
+                        <div className='container-foto'>
+                            <img className='image' src={neonOcean} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>NEON OCEAN</h2>
+                        </div>
                     </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={marblestorme} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>MARBLESTORME</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={purpleDream} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>PURPLE DREAM</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={purpleOcean} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>PURPLE OCEAN</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={strongRed} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>STRONG RED</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={pinkOcean} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>PINK OCEAN</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={redDiamond} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>RED DIAMOND</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={lemonDiamond} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>LEMON DIAMOND</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={purpleDiamond} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>PURPLE DIAMOND</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={blueStorm} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>BLUE STORM</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={debut} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>DEBUT</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={deepOcean} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>DEEP OCEAN</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={mantela} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>MANTELA</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={ohaio} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>OHAIO</h2>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='swiper-slide-carrossel'>
+                        <div className='container-foto'>
+                            <img className='image' src={tesla} alt=''/>
+                        </div>
+                        <div className='container-text'>
+                            <h5>PHYSIQUE SHORTS DESIGN</h5>
+                            <h2 className='h2-carrossel'>TESLA</h2>
+                        </div>
+                    </SwiperSlide>
+                    
                 </Swiper>
             </div>
         </>

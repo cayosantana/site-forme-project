@@ -2,10 +2,13 @@
     padding: 32px;
 }
 .swiper-slide-carrossel {
-    display: flex;
-    justify-content: center;
+    
+    
+}
+.container-foto {
     border: 2px solid #DE155E;
     border-radius: 5px;
+
 }
 .swiper-pagination-bullet-active {
     background-color: #DE155E;
