@@ -10,6 +10,9 @@
     border-radius: 5px;
 
 }
+.swiper-pagination-bullet {
+    background-color: #DE155E;
+}
 .swiper-pagination-bullet-active {
     background-color: #DE155E;
 }
