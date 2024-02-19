@@ -29,6 +29,9 @@ const Home = () => {
                     ))}
                 </Swiper>
             </div>
+            <div className='container-title'>
+                <h1>teste</h1>
+            </div>
             <div>
                 <Carrossel/>   
             </div>

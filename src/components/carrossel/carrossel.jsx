@@ -26,7 +26,7 @@ const Carrossel = ( ) => {
     return ( 
         <>
             <div>
-                <Swiper slidesPerView={3} spaceBetween={50} navigation={true} pagination={{ clickable: false }} className='swiper-carrossel'>
+                <Swiper spaceBetween={50} navigation={true} pagination={{ clickable: false }} breakpoints={{1200: {slidesPerView: 3}, 800: {slidesPerView: 2}, 300: {slidesPerView: 1}}} className='swiper-carrossel'>
                     <SwiperSlide className='swiper-slide-carrossel'>
                         <div className='container-foto'>
                             <img className='image' src={sandStorm} alt=''/>
