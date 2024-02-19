@@ -30,7 +30,7 @@ const Home = () => {
                 </Swiper>
             </div>
             <div className='container-title'>
-                <h1>teste</h1>
+                <h1>PHYSIQUE SHORTS DESIGN</h1>
             </div>
             <div>
                 <Carrossel/>   
