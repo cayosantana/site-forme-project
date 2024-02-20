@@ -11,6 +11,22 @@ nav {
     padding: 20px 80px;
     background-color: #010101;
 }
+nav .menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+nav .menu span {
+    height: 0.3rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
 #navbar {
     display: flex;
     align-items: center;
@@ -21,7 +37,6 @@ nav {
 #navbar li {
     list-style-type: none;
     font-size: 17px;
-    position: relative;
 }
 #link {
     color: whitesmoke;
@@ -47,4 +62,38 @@ nav {
     color: #010101;
     font-weight: 600;
     background-color: #DE155E;
-} 
+}
+@media (max-width: 769px) {
+
+    nav .menu {
+        display: flex;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 40px;
+    }
+    #navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+    #navbar.open {
+        display: flex;
+    }
+    #navbar li {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    #link-destaque {
+        border: none;  
+
+    }
+    #link {
+        margin: 0.2rem 0.5rem;
+    }
+    
+
+}
