@@ -1,6 +1,4 @@
-.active {
-    
-}
+
 .logo {
     width: 50px;
 }
@@ -53,7 +51,7 @@ nav .menu span {
     color: whitesmoke;
     font-weight: 600;
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     border: 2px solid #DE155E; 
     border-radius: 5px; 
     transition: 0.3s ease-in-out; 
@@ -77,23 +75,36 @@ nav .menu span {
         display: none;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 0.25rem;
+        margin: 10px 0px;
+        gap: 05px;
     }
     #navbar.open {
         display: flex;
     }
     #navbar li {
-        width: 100%;
+        width: 95vw;
+        background-color: #2a2a2a;
         text-align: center;
+        border-radius: 5px;
         padding: 10px;
     }
-    #link-destaque {
-        border: none;  
-
+    #link:hover {
+        color: #010101;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+    }
+    #navbar li:hover {
+        background-color: #DE155E;
     }
     #link {
-        margin: 0.2rem 0.5rem;
+        padding: 10px 200px;  
     }
+    #link-destaque {
+        display: block;
+        padding: 10px 100px;
+        transition: none;   
+    }
+    
     
 
 }
