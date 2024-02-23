@@ -25,7 +25,7 @@ import tesla from './image/TESLA  FINAL.jpg'
 const Carrossel = ( ) => {
     return ( 
         <>
-            <div>
+            <div id='container-carrossel'>
                 <Swiper spaceBetween={50} navigation={true} pagination={{ clickable: false }} breakpoints={{1200: {slidesPerView: 3}, 800: {slidesPerView: 2}, 300: {slidesPerView: 1}}} className='swiper-carrossel'>
                     <SwiperSlide className='swiper-slide-carrossel'>
                         <div className='container-foto'>

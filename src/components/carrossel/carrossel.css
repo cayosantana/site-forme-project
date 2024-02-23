@@ -1,3 +1,6 @@
+#container-carrossel {
+    padding: 4rem 4rem;
+}
 .swiper-carrossel {
     padding: 32px;
 }
@@ -37,4 +40,21 @@
 h5 {
     color: #DE155E;
     padding: 20px 0px 0px 30px;
+}
+@media screen and (max-width: 769px) {
+
+    #container-carrossel {
+        padding: 1.5rem 1.5rem;
+    }
+    .h2-carrossel {
+        font-size: 35px;
+        padding: 0px;
+        text-align: center;
+    }
+    h5 {
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+    }    
+
+    
 }
