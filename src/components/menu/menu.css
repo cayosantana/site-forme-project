@@ -97,11 +97,11 @@ nav .menu span {
         background-color: #DE155E;
     }
     #link {
-        padding: 10px 200px;  
+        padding: 10px 100px;  
     }
     #link-destaque {
         display: block;
-        padding: 10px 100px;
+        padding: 10px 50px;
         transition: none;   
     }
 }
