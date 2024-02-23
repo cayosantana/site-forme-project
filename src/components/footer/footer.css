@@ -33,9 +33,11 @@ a {
 .socialmedia {
     display: flex;
     flex-direction: row;
+    margin-right: 50px;
+    
 }
 .socialmedia img {
-    width: 50%;
+    width: 80%;
 }
 .sb__footer-links-div h4 {
     font-size: 15px;
