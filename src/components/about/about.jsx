@@ -2,6 +2,8 @@ import React from 'react';
 import './about.css'
 import greek from './image/greek-triskelion.png'
 import chala from './image/_DSC0828.jpg'
+import Footer from '../footer/footer';
+
 
 const About = () => {
     return ( 
@@ -22,8 +24,8 @@ const About = () => {
                     </div>
                     <img className='foto-chala' src={chala} alt="Fernando Chala" />
                 </div>
-
             </div>
+            <Footer/>
         </>
      );
 }

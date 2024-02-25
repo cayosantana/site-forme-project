@@ -36,8 +36,7 @@ const Home = () => {
             <div>
                 <Carrossel/>   
             </div>
-            <Footer/>
-            
+            <Footer/> 
         </>
      );
 }
