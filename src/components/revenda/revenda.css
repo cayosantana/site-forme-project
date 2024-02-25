@@ -1,11 +1,28 @@
 .container-revenda {
     background-color: #040202;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
+    padding: 4rem 4rem;
 }
 .foto-back {
-    width: 800px
+    width: 500px
 }
 .title-forme {
     color: whitesmoke;
+}
+
+@media screen and (max-width: 1127px) {
+
+    .foto-back {
+        display: none;    
+    }
+    .container-revenda {
+        display: block;
+          
+    }
+    
+    
 }
