@@ -4,19 +4,19 @@
     margin: 0 auto;
 }
 .container-marca {
-    background-color: white;
+    background-color: rgb(252, 251, 251);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     justify-items: center;
-    gap: 40px;
-    padding: 20px;
+    padding: 0px;
 }
 .container-marca img {
-    margin-left: 200px;
+    margin-left: 0px;
 }
 .container-marca div {
-    margin-right: 200px;
-    padding-top: 60px;
+    width: 600px;
+    margin-right: 0px;
+    padding-top: 50px;
 }
 .container-marca div h2 {
     padding-bottom: 15px;
