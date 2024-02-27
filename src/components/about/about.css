@@ -1,29 +1,15 @@
 .container-sobre {
-    background-color: rgb(251, 251, 251);
+    background-color: #08060B;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
-}
-.container-marca {
-    background-color: rgb(252, 251, 251);
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    padding: 0px;
-}
-.container-marca img {
-    margin-left: 0px;
-}
-.container-marca div {
-    width: 600px;
-    margin-right: 0px;
-    padding-top: 50px;
-}
-.container-marca div h2 {
-    padding-bottom: 15px;
-    font-size: 40px;
+    padding-top: 100px;
 }
 .foto-marca {
-    width: 300px;
+    width: 100px;
+    height: 100px;
 }
 .foto-chala {
     width: 500px;
@@ -31,19 +17,27 @@
 .container-forme {
     background-color: #08060B;
     display: flex;
-    gap: 200px;
-    padding-top: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    gap: 0px;
+    width: 550px;
 }
-.container-forme div {
-    margin-left: 200px;
-    padding-top: 80px;
+.container-forme h2 {
+    padding-bottom: 7px;
+    font-size: 30px;
+    color: #DE155E;
 }
-.container-forme div h2 {
+.container-forme p {
     color: whitesmoke;
-    padding-bottom: 15px;
-    font-size: 40px;
+    padding-bottom: 30px;
 }
-.container-forme div p {
-    color: whitesmoke;
-    max-width: 500px;
+.container-forme #text1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
+
+
+
+
