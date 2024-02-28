@@ -14,7 +14,7 @@ const FormRevenda = () => {
         <>
             <div className="app-container">
                 <div className="form-group">
-                    <h1 className='title-form'>Seja um Revendedor</h1>
+                    <h1 className='title-form'>Seja um Revendedor!</h1>
                     <label>Nome</label>
                     <input
                         className={errors?.name && "input-error"}

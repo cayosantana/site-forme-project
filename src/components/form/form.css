@@ -1,7 +1,7 @@
 
 .app-container {
     background: #040202;
-    height: 100%;
+    height: 90%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,9 @@
 }
 
 .title-form {
-    color: whitesmoke;
+    color: #DE155E;
     padding-bottom: 25px;
+    
 }
   
 .form-group {
@@ -80,7 +81,7 @@
     padding: 10px;
     border-radius: 5px;
     color: #eee;
-    background-color: #cb1357;
+    background-color: #DE155E;
     font-weight: 500;
     font-size: 1rem;
     margin-top: 10px;
