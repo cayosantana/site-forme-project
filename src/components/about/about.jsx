@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css'
-import greek from './image/greek-triskelion.jpg'
-import chala from './image/Chala-forme.jpg'
+import greek from './image/greek-triskelion.png'
+import chala from './image/Chala-forme-atual.jpg'
 import Footer from '../footer/footer';
 
 

@@ -36,6 +36,28 @@
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    
+}
+strong {
+    color: #DE155E;
+    font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .container-forme {
+        width: 430px;
+    }
+    .container-forme #text1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px; 
+    }
+    .container-sobre {
+        padding-top: 50px;
+    }
+    
 }
 
 
