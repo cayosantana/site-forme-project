@@ -1,3 +1,35 @@
 #container-model {
-    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 100vw;
+    padding: 4rem 4rem;
+    
+}
+.container-text-model {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.container-text-model h2 {
+    padding-bottom: 10px;
+    color: white;
+}
+.container-text-model h4 {
+    padding-bottom: 05px;
+    color: #DE155E;
+}
+.container-text-model p {
+    width: 300px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 500px) {
+
+    #container-model img {
+        width: 400px;
+    }
+    
 }
