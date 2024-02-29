@@ -1,11 +1,12 @@
 .container-sobre {
     background-color: #08060B;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
     padding-top: 100px;
+    gap: 40px;
 }
 .foto-marca {
     width: 100px;
