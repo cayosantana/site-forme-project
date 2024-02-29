@@ -17,7 +17,7 @@ const Menu = () => {
                     <span></span>
                 </div>
                 <ul id='navbar' className={menuOpen ? "open" : ""}>
-                    <li><NavLink id='link'  to="/">Inicial</NavLink></li>
+                    <li><NavLink id='link'  to="/model">Physique Shorts</NavLink></li>
                     <li><NavLink id='link'  to="about">Sobre</NavLink></li>
                     <li><NavLink id='link-destaque' to="revenda">Seja Nosso Revendedor</NavLink></li>
                 </ul>
