@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 40px;
     width: 100vw;
-    padding: 4rem 4rem;  
+    padding: 4rem 4rem 0rem 4rem;  
 }
 .container-text-model {
     display: flex;

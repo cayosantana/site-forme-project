@@ -1,5 +1,6 @@
 import React from 'react';
 import './model.css'
+import Carrossel from '../carrossel/carrossel';
 import Footer from '../footer/footer';
 
 import modelImage from './image/foto-modelo-forme.png'
@@ -19,6 +20,7 @@ const Model = () => {
                     </div>
                 </div>
             </div>
+            <Carrossel/>
             <Footer/>
         </>
      );
