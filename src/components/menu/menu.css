@@ -40,12 +40,21 @@ nav .menu span {
     color: whitesmoke;
     font-weight: 600;
     text-decoration: none; 
-    padding: 20px;  
+    padding: 05px 20px;  
     transition: 0.3s ease-in-out;
+    position: relative;
 }
-#link:hover {
-    color: #DE155E;
-    
+#link:hover, #link.active {
+    color: #DE155E;   
+}
+#link:hover::after, #link.active::after {
+    content: "";
+    width: 30%;
+    height: 2.2px;
+    background: #DE155E;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
 }
 #link-destaque {
     color: whitesmoke;
@@ -56,7 +65,7 @@ nav .menu span {
     border-radius: 5px; 
     transition: 0.3s ease-in-out; 
 }  
-#link-destaque:hover {
+#link-destaque:hover, #link-destaque.active {
     color: #010101;
     font-weight: 600;
     background-color: #DE155E;
@@ -103,5 +112,8 @@ nav .menu span {
         display: block;
         padding: 10px 50px;
         transition: none;   
+    }
+    #link:hover::after, #link.active::after {
+        display: none;
     }
 }
