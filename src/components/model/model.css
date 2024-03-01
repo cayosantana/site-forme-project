@@ -4,8 +4,7 @@
     justify-content: center;
     gap: 40px;
     width: 100vw;
-    padding: 4rem 4rem;
-    
+    padding: 4rem 4rem;  
 }
 .container-text-model {
     display: flex;
@@ -25,11 +24,24 @@
     color: white;
     padding-bottom: 15px;
 }
-
+.container-icon-model {
+    display: flex;
+}
+.container-icon-model h4 {
+    padding-top: 18px;
+}
+.icon {
+    width: 80px;
+}
+.image-model {
+    width: 700px;
+}
 @media screen and (max-width: 500px) {
 
-    #container-model img {
+    .image-model {
         width: 400px;
     }
-    
+    .icon {
+        width: 70px;
+    }
 }
