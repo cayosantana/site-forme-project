@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className='sb__footer section__padding'>
                     <div className='sb__footer-links'>
                         <div className='sb__footer-links-div'>
-                            <h4>Company</h4>
+                            <h4>Forme</h4>
                             <a href="/">
                                 <p>Home</p>
                             </a>
@@ -23,15 +23,9 @@ const Footer = () => {
                             </a>
                         </div>
                         <div className='sb__footer-links-div'>
-                            <h4>Teste1</h4>
+                            <h4>Fale Conosco</h4>
                             <a href="/employer1">
-                                <p>Employer1</p>
-                            </a>
-                            <a href="/employer1">
-                                <p>Employer1</p>
-                            </a>
-                            <a href="/employer1">
-                                <p>Employer1</p>
+                                <p>atendimento@forme.com.br</p>
                             </a>
                         </div>
                         <div className='sb__footer-links-div'>
