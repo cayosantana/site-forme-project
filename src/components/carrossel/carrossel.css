@@ -60,6 +60,7 @@ h5 {
 
     #container-carrossel {
         padding: 1.5rem 1.5rem;
+        animation: none;
     }
     .h2-carrossel {
         font-size: 35px;
