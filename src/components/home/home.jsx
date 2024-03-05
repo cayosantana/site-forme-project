@@ -3,9 +3,9 @@ import './home.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import slide01 from './image/banner-forme01-desk.png'
-import slide02 from './image/banner-forme02-desk.png'
+import slide02 from './image/banner-forme-02-ret.png'
 import slide03 from './image/banner-forme01-mobile.png'
-import slide04 from './image/banner-forme02-mobile.png'
+import slide04 from './image/banner-forme-02-ret-mob.png'
 import Carrossel from '../carrossel/carrossel';
 import Footer from '../footer/footer';
 
