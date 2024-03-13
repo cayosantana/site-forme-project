@@ -55,8 +55,8 @@ const FormRevenda = () => {
                     <input
                         className={errors?.tel && "input-error"}
                         type="tel"
-                        placeholder="(xx) xxxxx-xxxx"
-                        {...register("tel", {required: true, minLength: 15 })}
+                        placeholder="xx xxxxx xxxx"
+                        {...register("tel", {required: true, minLength: 13 })}
                     />
                     {errors?.tel?.type === 'required' && (
                         <p className="error-message">Telefone é um campo obrigatório!</p>

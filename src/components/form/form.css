@@ -11,14 +11,14 @@
 
 .title-form {
     color: #DE155E;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     
 }
   
 .form-group {
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 5px 0;
     width: 500px;
     gap: 5px;
 }
