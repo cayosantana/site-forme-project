@@ -1,5 +1,5 @@
 .container-sobre {
-    background-color: #08060B;
+    background-color: #010101;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -17,7 +17,7 @@
     animation: appearRight 1s ease-in-out;
 }
 .container-forme {
-    background-color: #08060B;
+    background-color: #010101;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
