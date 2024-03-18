@@ -59,7 +59,7 @@ h5 {
 @media screen and (max-width: 769px) {
 
     #container-carrossel {
-        padding: 1.5rem 1.5rem;
+        padding: 1rem 1rem;
         animation: none;
     }
     .h2-carrossel {
