@@ -1,5 +1,5 @@
 #container-carrossel {
-    padding: 4rem 4rem;
+    padding: 6rem 6rem;
     animation: slider 1ms ease-in-out both;
     animation-timeline: view();
     animation-range: 0% cover 50%
