@@ -18,9 +18,10 @@
 .container-text-model h4 {
     padding-bottom: 05px;
     color: #DE155E;
+    max-width: 300px;
 }
 .container-text-model p {
-    width: 300px;
+    max-width: 300px;
     color: white;
     padding-bottom: 15px;
 }
@@ -37,7 +38,7 @@
     width: 80px;
 }
 .image-model {
-    width: 700px;
+    width: 600px;
     animation: appearLeft 1s ease-in-out;
 }
 @keyframes appearLeft {
