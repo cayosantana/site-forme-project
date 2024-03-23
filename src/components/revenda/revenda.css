@@ -1,5 +1,5 @@
 .container-revenda {
-    background-color: #040202;
+    background-color: #010101;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -12,9 +12,7 @@
     width: 500px;
     animation: appearLeft 1s ease-in-out;
 }
-.title-forme {
-    color: whitesmoke;
-}
+
 @keyframes appearLeft {
 
     from {
@@ -29,15 +27,25 @@
     
 }
 
-@media screen and (max-width: 1127px) {
+@media screen and (max-width: 480px) {
 
     .foto-back {
         display: none;    
     }
     .container-revenda {
-        display: block;
+        justify-content: center;
+        width: 100%;
+        padding: 2rem 0.5rem;
           
     }
-    
-    
+ 
+}
+
+@media screen and (min-width: 481px) and (max-width: 601) {
+
+    .foto-back {
+        width: 400px;
+        animation: none
+    }
+
 }

@@ -56,17 +56,40 @@ h5 {
         translate: 0 0;
     }
 }
-@media screen and (max-width: 769px) {
+
+@media screen and (min-width: 1201px) {
+
+    .h2-carrossel {
+        font-size: 33px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 801px) {
+
+    .h2-carrossel {
+        font-size: 33px;
+        
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px) and (min-width: 320px) {
 
     #container-carrossel {
         padding: 1rem 1rem;
         animation: none;
     }
+
     .h2-carrossel {
         font-size: 35px;
         padding: 0px;
         text-align: center;
+        
     }
+    
     h5 {
         padding: 20px 0px 0px 0px;
         text-align: center;

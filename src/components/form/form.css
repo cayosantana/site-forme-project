@@ -1,6 +1,6 @@
 
 .app-container {
-    background: #040202;
+    background: #010101;
     height: 90%;
     width: 100%;
     display: flex;
@@ -94,10 +94,17 @@
     background-color: #fd176b;
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .form-group {
-        width: 400px;
+        width: 100%;
     }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 601px) {
+    .form-group {
+        width: 100%;
+    }
+    
     
 }

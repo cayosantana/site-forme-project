@@ -72,7 +72,29 @@ strong {
     
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
+    .container-forme {
+        margin: 0px 20px;
+        animation: none
+    }
+    .foto-marca {
+        width: 80px;
+        height: 80px;
+    }
+    .foto-chala {
+        width: 300px;
+        animation: none
+    }
+    .container-forme #text1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px; 
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px) {
     
     .container-forme {
         width: 430px;
